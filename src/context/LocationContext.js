@@ -37,7 +37,6 @@ const addLocation = (dispatch) => (location, recording) => {
         dispatch({ type: "add_location", payload: location });
     }
 };
-
 const reset = (dispatch) => () => {
     dispatch({ type: "reset" });
 };
